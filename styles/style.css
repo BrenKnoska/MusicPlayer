@@ -14,20 +14,19 @@
     height: 100vh;
 }
 
-.Disco:hover{
-    background-color:transparent;
+.Disco:hover {
+    background-color: transparent;
     border-radius: 50%;
-    box-shadow: 13px 22px 65px 32px rgba(255,90,130,1);
-    -webkit-box-shadow: 13px 22px 65px 32px rgba(255,90,130,1);
-    -moz-box-shadow: 13px 22px 65px 32px rgba(255,90,130,1);
+    box-shadow: 13px 22px 65px 32px rgba(255, 90, 130, 1);
+    -webkit-box-shadow: 13px 22px 65px 32px rgba(255, 90, 130, 1);
+    -moz-box-shadow: 13px 22px 65px 32px rgba(255, 90, 130, 1);
     animation-name: spin;
     animation-duration: 5000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    transition: 1s;
 }
 
-@keyframes spin{
+@keyframes spin {
     from {
         transform: rotate(0deg);
     }
@@ -42,11 +41,9 @@ audio {
     margin-left: 2%;
 }
 
-.Panel{
-
-    width:  380px;
+.Panel {
+    width: 380px;
     height: 90px;
-    /* background-color: white; */
     border-radius: 5%;
     margin-left: 3%;
     box-shadow: rgb(43, 35, 35) 3px 5px 8px;
@@ -64,24 +61,57 @@ audio {
 }
 
 .Artista {
-  background-color: transparent;
+    background-color: transparent;
     width: 354;
     height: 353px;
     border: none;
 }
-.Letras{
+
+.Letras {
     font-size: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     text-shadow: black 1px 1px 2px;
-    
-
 }
+
 /* ----------------------------------------CONTROL DE REPRODUCTOR------------------------------------------------- */
-.fas.fa-backward{
+
+.fas.fa-backward {
+    font-size: 40px;
+    color: rgb(211, 67, 91);
+    text-shadow: black 1px 3px 1px;
+}
+.fas.fa-backward:hover{
+    color: coral;
+    transition: 1s;
+}
+.fas.fa-play {
+    font-size: 40px;
+    color: rgb(206, 39, 67);
+    text-shadow: black 1px 3px 1px;
+}
+.fas.fa-play:hover{
+    color: coral;
+    transition: 1s;
+}
+.fas.fa-forward {
+    font-size: 40px;
+    color: rgb(211, 67, 91);
+    text-shadow: black 1px 3px 1px;
+}
+
+.fas.fa-forward:hover{
+    color: coral;
+    transition: 1s;
+}
+
+.btnBackward {
 
 }
 
-.btnBackward{
-appearance: none;
+button {
+     padding-left: 17%;
+    padding-top: 5%;
+   background-color: transparent;
+    border-style: none;
 }
