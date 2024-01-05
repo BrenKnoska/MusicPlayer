@@ -12,35 +12,58 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+
     <title>MusicPlayer</title>
 </head>
 
 <body>
+    <nav>
+        <div class="navbar">
+            <h1 class="menu">Noseuka 브렌다 Music <i class="fas fa-moon"></i></h1>
+            <ul>
+                <li>
+                    <h2 class="tipografiaNav menuColor">Lyrics</h2>
+                    <i class="fas fa-music"></i>
+                    <h2 class="tipografiaNav menuColor">Contacto</h2>
+                    <i class="fas fa-splotch"></i>
+
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
 
     <div class="Container">
 
+
+
+
         <div class="Disco">
             <div class="Artista">
-                <img src="./assets/Image/me-me-modified.png" class="Artista" alt="">
+                <img src="assets\Image\noseuka-logo.png" class="Artista" alt="">
             </div>
 
         </div>
         <div class="Panel card">
             <button id="btnBackward">
-                <i class="fas fa-backward"></i>
+                <i class="fas fa-backward" id="backward"></i></button>
+            <button id="btnPlay"><i class="fas fa-play" id="play">
+                </i></button>
+            <button class="ocultarElemento" id="pausaBoton">
+                <i class="fas fa-pause" id="pause"></i>
             </button>
-            <button><i class="fas fa-play" id="play"></i></button>
+
             <button><i class="fas fa-forward" id="forward"></i></button>
-            <!-- <audio controls>
-        <source src="Destello Fugaz(Pila).mp3" type="audio/mp3" class="Audio">
-        <source src= "Silencio en la tempestad (pila).mp3" type="audio/mp3">
-        </audio> -->
-            <!-- <h1 class="Letras">Brenda Knoska</h1> -->
+
+
         </div>
-
-
-    </div>
-
+        <script src="scripts.js"></script>i
 </body>
 
 </html>

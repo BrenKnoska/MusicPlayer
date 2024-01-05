@@ -1,117 +1,180 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .Container {
-    background-color: pink;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: black 2px 1px 3px;
-    width: auto;
-    height: 100vh;
+  background-image: url("/assets/Image/glowimage.gif");
+  background-color: rgb(8, 3, 105);
+  background-position: 50% center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: black 2px 1px 3px;
+  width: auto;
+  height: 100vh;
+}
+
+.animacionDisco {
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 13px 22px 65px 32px rgb(210, 218, 233);
+  -webkit-box-shadow: 13px 22px 65px 32px rgb(23, 5, 138);
+  -moz-box-shadow: 13px 22px 65px 32px rgb(15, 33, 174);
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .Disco:hover {
-    background-color: transparent;
-    border-radius: 50%;
-    box-shadow: 13px 22px 65px 32px rgba(255, 90, 130, 1);
-    -webkit-box-shadow: 13px 22px 65px 32px rgba(255, 90, 130, 1);
-    -moz-box-shadow: 13px 22px 65px 32px rgba(255, 90, 130, 1);
-    animation-name: spin;
-    animation-duration: 5000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 13px 22px 65px 32px rgb(210, 218, 233);
+  -webkit-box-shadow: 13px 22px 65px 32px rgb(23, 5, 138);
+  -moz-box-shadow: 13px 22px 65px 32px rgb(15, 33, 174);
 }
 
 @keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 audio {
-    padding-bottom: 2%;
-    margin-top: 5%;
-    margin-left: 2%;
+  padding-bottom: 2%;
+  margin-top: 5%;
+  margin-left: 2%;
 }
 
 .Panel {
-    width: 380px;
-    height: 90px;
-    border-radius: 5%;
-    margin-left: 3%;
-    box-shadow: rgb(43, 35, 35) 3px 5px 8px;
-    background-image: url('https://image.freepik.com/vector-gratis/rama-hermosas-flores-sakura-petalos-cayendo-ilustracion-composicion-realista_1284-31302.jpg');
-    background-position: center;
-    opacity: 82%;
+  width: 380px;
+  height: 90px;
+  border-radius: 5%;
+  margin-left: 3%;
+  box-shadow: rgb(43, 35, 35) 3px 5px 8px;
+  background-image: url("/assets/Image/moon-36.gif");
+  background-position: center;
+  opacity: 82%;
 }
 
 .card {
-    backdrop-filter: blur(22px) saturate(180%);
-    -webkit-backdrop-filter: blur(22px) saturate(180%);
-    background-color: rgba(56, 10, 24, 0.69);
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+  backdrop-filter: blur(22px) saturate(180%);
+  -webkit-backdrop-filter: blur(22px) saturate(180%);
+  background-color: rgba(56, 10, 24, 0.69);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
 .Artista {
-    background-color: transparent;
-    width: 354;
-    height: 353px;
-    border: none;
+  background-color: transparent;
+  width: 354;
+  height: 353px;
+  border: none;
 }
 
 .Letras {
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    text-shadow: black 1px 1px 2px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  text-shadow: black 1px 1px 2px;
 }
 
-/* ----------------------------------------CONTROL DE REPRODUCTOR------------------------------------------------- */
+.menu {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(34, 28, 51);
+  text-shadow: -1px 6px 7px rgb(0, 3, 183);
+}
+
+.menu:hover {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  transition: 1s;
+  color: rgb(11, 96, 182);
+  text-shadow: -1px 6px 7px rgb(0, 0, 0);
+}
+
+
+.ocultarElemento {
+  display: none;
+}
+
+h2 {
+  display:inline-flex;
+  padding-left: 30%;
+  background-color: rgba(255, 255, 255, 0.363)363);
+}
+
+.menuColor:hover{
+  transition: 1s;1
+  color: rgb(11, 96, 182);
+  text-shadow: -1px 6px 7px rgb(0, 0, 0);
+
+
+}
+.tipografiaNav{
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(30, 17, 17);
+  text-shadow: rgb(11, 96, 182) 1px 1px 2px; 
+}
+
+/* ----------------------------------------CONTROL DE REPRODUCTOR------------------------------------------------- MODO CLARO */
 
 .fas.fa-backward {
-    font-size: 40px;
-    color: rgb(211, 67, 91);
-    text-shadow: black 1px 3px 1px;
+  font-size: 40px;
+  color: rgb(88, 134, 214);
+  text-shadow: black 1px 3px 1px;
 }
-.fas.fa-backward:hover{
-    color: coral;
-    transition: 1s;
+.fas.fa-backward:hover {
+  color: rgb(11, 96, 182);
+  transition: 1s;
 }
 .fas.fa-play {
-    font-size: 40px;
-    color: rgb(206, 39, 67);
-    text-shadow: black 1px 3px 1px;
-}
-.fas.fa-play:hover{
-    color: coral;
-    transition: 1s;
-}
-.fas.fa-forward {
-    font-size: 40px;
-    color: rgb(211, 67, 91);
-    text-shadow: black 1px 3px 1px;
+  font-size: 40px;
+  color: rgb(88, 134, 214);
+  text-shadow: black 1px 3px 1px;
 }
 
-.fas.fa-forward:hover{
-    color: coral;
-    transition: 1s;
+.fas.fa-pause {
+  font-size: 40px;
+  color: rgb(88, 134, 214);
+  text-shadow: black 1px 3px 1px;
+}
+.fas.fa-pause:hover {
+  color: rgb(11, 96, 182);
+  transition: 1s;
+}
+
+.fas.fa-play:hover {
+  color: rgb(11, 96, 182);
+  transition: 1s;
+}
+.fas.fa-forward {
+  font-size: 40px;
+  color: rgb(88, 134, 214);
+  text-shadow: black 1px 3px 1px;
+}
+
+.fas.fa-forward:hover {
+  color: rgb(11, 96, 182);
+  transition: 1s;
 }
 
 .btnBackward {
-
 }
 
 button {
-     padding-left: 17%;
-    padding-top: 5%;
-   background-color: transparent;
-    border-style: none;
+  padding-left: 17%;
+  padding-top: 5%;
+  background-color: transparent;
+  border-style: none;
 }
