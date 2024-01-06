@@ -32,7 +32,7 @@
   background-color: transparent;
   border-radius: 50%;
   box-shadow: 13px 22px 65px 32px rgb(210, 218, 233);
-  -webkit-box-shadow: 13px 22px 65px 32px rgb(23, 5, 138);
+  -webkit-box-shadow: 13px 22px 65px 32px rgb(93, 0, 90);
   -moz-box-shadow: 13px 22px 65px 32px rgb(15, 33, 174);
 }
 
@@ -89,8 +89,10 @@ audio {
   font-family: "Lato", sans-serif;
   font-size: 50px;
   color: rgb(255, 255, 255);
-  background-color: rgb(34, 28, 51);
+  background-color: rgb(34, 20, 126);
   text-shadow: -1px 6px 7px rgb(0, 3, 183);
+  list-style: none;
+  text-decoration: none;
 }
 
 .menu:hover {
@@ -98,33 +100,52 @@ audio {
   font-family: "Lato", sans-serif;
   font-size: 50px;
   transition: 1s;
-  color: rgb(11, 96, 182);
+  color: rgb(189, 128, 255);
   text-shadow: -1px 6px 7px rgb(0, 0, 0);
 }
-
 
 .ocultarElemento {
   display: none;
 }
 
 h2 {
-  display:inline-flex;
+  display: inline-flex;
   padding-left: 30%;
-  background-color: rgba(255, 255, 255, 0.363)363);
+  background-color: rgba(255, 255, 255, 0.363);
 }
 
-.menuColor:hover{
-  transition: 1s;1
+.menuColor:hover {
+  transition: 1s;
   color: rgb(11, 96, 182);
   text-shadow: -1px 6px 7px rgb(0, 0, 0);
-
-
 }
-.tipografiaNav{
+.tipografiaNav {
   font-size: 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgb(30, 17, 17);
-  text-shadow: rgb(11, 96, 182) 1px 1px 2px; 
+  text-shadow: rgb(11, 96, 182) 1px 1px 2px;
+}
+
+.colorIcon {
+  color: yellow;
+}
+
+.colorIconEstrella {
+  color: orange;
+}
+
+a {
+  color: rgb(155, 84, 255);
+  text-shadow: rgb(255, 255, 255) 2px 1px 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.editFooter {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 12%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: rgb(255, 255, 255) 2px 1px 2px;
 }
 
 /* ----------------------------------------CONTROL DE REPRODUCTOR------------------------------------------------- MODO CLARO */
