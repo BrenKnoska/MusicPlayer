@@ -57,9 +57,11 @@ audio {
   border-radius: 5%;
   margin-left: 3%;
   box-shadow: rgb(43, 35, 35) 3px 5px 8px;
-  background-image: url("/assets/Image/moon-36.gif");
-  background-position: center;
+  background-image: url("/assets/Image/window.gif");
   opacity: 82%;
+  background-blend-mode: hard-light;
+  background-position-y: center;
+  background-position-x: right;
 }
 
 .card {
@@ -146,6 +148,26 @@ a {
   margin-left: 12%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-shadow: rgb(255, 255, 255) 2px 1px 2px;
+}
+.Cantante {
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+  width: 394;
+  height: 383px;
+  margin: 2%;
+  border: none;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  align-items: center;
+}
+
+.contactFont {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-size: 25px;
+  text-shadow: rgb(98, 4, 156) 1px 3px 1px;
 }
 
 /* ----------------------------------------CONTROL DE REPRODUCTOR------------------------------------------------- MODO CLARO */
