@@ -62,3 +62,4 @@ atrasCancion.addEventListener("click", function () {
     cambiarEstadoReproductor("play");
   }
 });
+

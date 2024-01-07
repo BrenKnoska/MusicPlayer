@@ -16,6 +16,18 @@
   height: 100vh;
 }
 
+.containerCambiaColor {
+  background-image: url("/assets/Image/glowimage.gif");
+  background-blend-mode:difference;
+  background-color: rgb(8, 3, 105);
+  background-position: 50% center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: black 2px 1px 3px;
+  width: auto;
+  height: 100vh;
+}
 .animacionDisco {
   background-color: transparent;
   border-radius: 50%;
@@ -80,7 +92,7 @@ audio {
 }
 
 .Letras {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
   text-shadow: black 1px 1px 2px;
@@ -170,6 +182,16 @@ a {
   text-shadow: rgb(98, 4, 156) 1px 3px 1px;
 }
 
+.letterSpacing {
+  letter-spacing: 1px;
+}
+
+.miImagen {
+  width: 310px;
+  box-shadow: 3px 2px 3px rgb(255, 255, 255);
+  border-radius: 8%;
+  
+}
 /* ----------------------------------------CONTROL DE REPRODUCTOR------------------------------------------------- MODO CLARO */
 
 .fas.fa-backward {
@@ -220,4 +242,23 @@ button {
   padding-top: 5%;
   background-color: transparent;
   border-style: none;
+}
+
+.centrar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 6%;
+  padding-left: 2%;
+}
+
+.letrasDeCanciones {
+  font-size: 25px;
+  margin-left: 15%;
+  margin-bottom: 30%;
+}
+
+.editarFuentesSeccionLyrics {
+  color: aliceblue;
+  text-shadow: 2px 4px 2px rgb(89, 0, 255);
 }
