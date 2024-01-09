@@ -28,6 +28,8 @@
   width: auto;
   height: 100vh;
 }
+
+
 .animacionDisco {
   background-color: transparent;
   border-radius: 50%;
@@ -205,7 +207,7 @@ a {
   margin-left: 15%;
   margin-bottom: 30%;
 }
-.contenedorLetrasDeCanciones{
+.contenedorLetrasDeCanciones {
   font-size: 20px;
   width: 25%;
   margin-left: 15%;
@@ -281,11 +283,105 @@ button {
 
 /* RESPONSIVE */
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .Container {
     flex-direction: column;
     align-content: stretch;
     align-items: baseline;
     justify-content: center;
+  }
+  .card {
+    width: 100%;
+    height: 10%;
+    margin-top: 4%;
+    padding-right: 2%;
+    padding-left: 3%;
+    margin: auto;
+  }
+  .Artista {
+    margin-top: 18%;
+  }
+  .editFooter {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    margin: auto;
+  }
+  .menu {
+    font-size: 32px;
+  }
+  a {
+    font-size: 18px;
+  }
+  .Disco:hover {
+    border-radius: 15%;
+    margin-top: 20%;
+    height: 50%;
+    margin-bottom: 10%;
+    -webkit-box-shadow: 13px 22px 65px 32px rgba(255, 43, 255, 0.426);
+    -moz-box-shadow: 13px 22px 65px 32px rgba(15, 34, 174, 0.01);
+  }
+  .animacionDisco {
+    background-color: transparent;
+    border-radius: 25%;
+    -webkit-box-shadow: 13px 22px 65px 32px rgba(255, 162, 255, 0.708);
+    -moz-box-shadow: 13px 22px 65px 32px rgba(15, 34, 174, 0.01);
+    animation-name: none;
+  }
+  .contenedorLetrasDeCanciones{
+    font-size: 15px;
+    width: 100%;
+  }
+  .miImagen{
+    width: 340px;
+  }
+  .centrar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 6%;
+    padding-left: 2%;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
 }
+.contenedorLetrasDeCanciones{
+  margin: auto;
+  background-color: #211473;
+
+}
+.contactFont{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-size: 11px;
+  margin: auto;
+  width: 100%;
+  text-shadow: rgb(98, 4, 156) 1px 3px 1px;
+}
+.Cantante{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: transparent;
+  width: 394;
+  height: 230px;
+  margin: 2%;
+  border: none;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+  /*BOTONES*/
+  .fas.fa-backward {
+    font-size: 30px;
+  }
+  .fas.fa-play {
+    font-size: 30px;
+  }
+  .fas.fa-pause {
+    font-size: 30px;
+  }
+  .fas.fa-forward {
+    font-size: 30px;
+  }
 }

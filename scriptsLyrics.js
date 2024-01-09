@@ -44,8 +44,8 @@ const cancionesLetras = [
     canción: "destello fugaz",
     letra: ` <u>Destello fugaz</u>  <br> <br> Te dejé atrás <br> 
     me resigné muy al final <br>
-    Todo lo intenté <br>
-    pero no lo supiste ver <br>
+    todo lo intenté <br>
+    pero no lo supiste ver <br> <br>
     No te canto más <br>
     mi etapa en la que estaba mal <br>
     te resguardé en canción <br>
