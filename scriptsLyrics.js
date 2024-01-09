@@ -19,7 +19,7 @@ const cancionesLetras = [
     quiero mostrar, pero me prenden las luces <br>
     
     ¿sentir o morirme? ¿o morirme y sentir? <br>
-    el tiempo pesa  que pase con heridas <br>  me sacó de mi <br><br>
+    el tiempo pesa que pase con heridas <br>  me sacó de mi <br><br>
     
     A veces solo somos las segundas opciones <br>
     las primeras mentiras para así conformarse <br>
