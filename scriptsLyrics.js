@@ -11,14 +11,15 @@ const cancionesLetras = [
     fantasía</u> <br><br>
     Creer en las mentiras <br>
     algo que se sentía fantasía <br>
-    un cuento que me gustó escuchar aunque no fue verdad <br>
+    un cuento que me gustó escuchar <br>aunque no fue verdad <br> 
+   <br> 
     
     Quiero cantar
     pero no quiero que me escuchen <br>
     quiero mostrar, pero me prenden las luces <br>
     
     ¿sentir o morirme? ¿o morirme y sentir? <br>
-    el tiempo pesa y que pase con heridas me sacó de mi <br><br>
+    el tiempo pesa  que pase con heridas <br>  me sacó de mi <br><br>
     
     A veces solo somos las segundas opciones <br>
     las primeras mentiras para así conformarse <br>
