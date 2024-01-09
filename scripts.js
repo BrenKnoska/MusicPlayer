@@ -6,6 +6,15 @@ const pausaCancion = document.getElementById("pause");
 const disco = document.getElementsByClassName("Disco")[0];
 const pausaBoton = document.getElementById("pausaBoton");
 
+//Partes de las lyrics
+// const tituloFantasia = document.getElementById("tituloFantasia");
+// const contenedorLetraFantasia = document.getElementById("contenedorLetraFantasia");
+// const tituloDestelloFugaz = document.getElementById("tituloDestelloFugaz");
+// const contenedorLetraDestelloFugaz = document.getElementById("contenedorLetraDestelloFugaz");
+
+
+
+
 /**
  *@constant se crea un array anidado que contiene la letra y el nombre de cada cancion
  */
@@ -15,6 +24,8 @@ const listaCanciones = [
   ["./audio/Distancia_inerte.mp3", "Distancia inerte"],
   ["./audio/Silencio_en_la_tempestad.mp3", "Silencio en la tempestad"],
   ["./audio/Flor_en_el_vacio.mp3", "Flor en el vacío"],
+  ["./audio/En_esta_gran_ciudad.mp3", "En esta gran ciudad"],
+
 ];
 //creo una pista de audio que inicia en la posicion 0,0 de mi array anidado
 let numeroPista = 0;

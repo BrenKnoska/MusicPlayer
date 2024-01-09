@@ -18,7 +18,7 @@
 
 .containerCambiaColor {
   background-image: url("/assets/Image/glowimage.gif");
-  background-blend-mode:difference;
+  background-blend-mode: difference;
   background-color: rgb(8, 3, 105);
   background-position: 50% center;
   display: flex;
@@ -190,8 +190,43 @@ a {
   width: 310px;
   box-shadow: 3px 2px 3px rgb(255, 255, 255);
   border-radius: 8%;
-  
 }
+
+.centrar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 6%;
+  padding-left: 2%;
+}
+
+.letrasDeCanciones {
+  font-size: 25px;
+  margin-left: 15%;
+  margin-bottom: 30%;
+}
+.contenedorLetrasDeCanciones{
+  font-size: 20px;
+  width: 25%;
+  margin-left: 15%;
+  margin-bottom: 30%;
+}
+.editarFuentesSeccionLyrics {
+  color: aliceblue;
+  text-shadow: 2px 4px 2px rgb(89, 0, 255);
+}
+
+.sombra {
+  text-shadow: 2px 4px 2px rgb(89, 0, 255);
+}
+
+.linkText {
+  display: block;
+  font-size: 2em;
+  font-style: italic;
+  cursor: pointer;
+}
+
 /* ----------------------------------------CONTROL DE REPRODUCTOR------------------------------------------------- MODO CLARO */
 
 .fas.fa-backward {
@@ -244,21 +279,13 @@ button {
   border-style: none;
 }
 
-.centrar {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding-top: 6%;
-  padding-left: 2%;
-}
+/* RESPONSIVE */
 
-.letrasDeCanciones {
-  font-size: 25px;
-  margin-left: 15%;
-  margin-bottom: 30%;
+@media  screen and (max-width: 768px) {
+  .Container {
+    flex-direction: column;
+    align-content: stretch;
+    align-items: baseline;
+    justify-content: center;
 }
-
-.editarFuentesSeccionLyrics {
-  color: aliceblue;
-  text-shadow: 2px 4px 2px rgb(89, 0, 255);
 }
