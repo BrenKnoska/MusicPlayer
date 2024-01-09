@@ -165,7 +165,6 @@ a {
 .Cantante {
   display: flex;
   justify-content: space-around;
-  background-color: transparent;
   width: 394;
   height: 383px;
   margin: 2%;
@@ -352,7 +351,7 @@ button {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: px;
     margin: auto;
     width: 100%;
     text-shadow: rgb(98, 4, 156) 1px 3px 1px;
@@ -360,7 +359,6 @@ button {
   .Cantante {
     display: flex;
     justify-content: space-evenly;
-    background-color: transparent;
     width: 394;
     height: 230px;
     margin: 2%;
