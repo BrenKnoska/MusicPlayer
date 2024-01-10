@@ -179,6 +179,39 @@ y sé que esta vez, no voy a dar marcha atrás.
     mis palabras zarpan <br>
     en el muelle de invisibilidad.  <br> ` ,
   },
+
+{
+  id: "06",
+  titulo: "Canción 7",
+  canción: "todo muere lentamente",
+  letra:  `<u>Todo muere lentamente</u> <br> <br>
+  Intenté creer <br>
+  en eso que llamamos amor <br>
+  reprimiendo el sentir <br>
+  por miedos ya hablados <br>
+   <br>
+  
+  No quiero sentirme así <br>
+  ¿por qué el vacío? <br> aún me persigue
+  <br> <br>
+  a paso lento muere todo <br>
+  llevando consigo <br>
+  tiempo, emoción <br>
+  se desvanece  <br> 
+  te veo a través del humo nuevamente <br>  <br> 
+  
+intenté creer<br>
+  en eso que llamamos amor <br>
+  reprimiendo el sentir <br>
+  por miedos incomprendidos <br>
+  <br>
+  
+  no quiero sentirme así <br>
+  el vacío <br>
+  me persigue. <br>
+ ` ,
+},
+
 ];
 
 // elemento.attributes.value.value;
@@ -204,6 +237,9 @@ selectorCanciones.forEach((elemento) => {
     }
     if (valorCancion == "05") {
       contenedorDeLetras.innerHTML = cancionesLetras[5].letra;
+    }
+    if (valorCancion == "06") {
+      contenedorDeLetras.innerHTML = cancionesLetras[6].letra;
     }
   });
 });
